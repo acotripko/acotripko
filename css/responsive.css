@@ -1110,7 +1110,7 @@ body{
       display: inline-block;
   }
   body{
-   width: 650px;
+   width: 760px;
   }
 
   #logo img {
@@ -1224,6 +1224,69 @@ body{
 #projekti-poz-1 h1 {
    font-size: 30px;
    margin-right: 90px;
+}
+}
+@media screen and (max-width: 590px) {
+   #body{
+      width: 590px;
+   }
+   #logo img {
+      margin-left: 33%;
+  }
+  #nav-bar ul {
+   margin-left: 10%;
+}
+#nav-bar-linkovi {
+   margin-left: 19%;
+}
+#meni-design h1 {
+   margin-right: 210px;
+}
+#meni-design p {
+   width: 220px;
+   margin-left: 0px;
+  
+}
+#meni-code h1 {
+   margin-right: 410px;
+}
+#meni-code p {
+   width: 220px;
+   margin-left: 0px;
+  
+  
+}
+#html{
+   margin-left: 15% ;
+}
+#css{
+   margin-left: 15% ;
+}
+#cplus{
+   margin-left: 15% ;
+}
+#o-meni-box {
+   margin-left: 15%;
+}
+#projekti-poz-1 h1 {
+
+   margin-right: 180px;
+}
+#projekat-1{
+   margin-left: 22%;
+}
+#projekat-2{
+   margin-left: 22%;
+}
+#projekat-3{
+   margin-left: 22%;
+}
+#fotter-media ul {
+   margin-left: 0%;
+   margin-right: 180px;
+}
+#fotter-copy {
+   margin-right: 170px;
 }
 }
 
