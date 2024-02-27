@@ -922,7 +922,7 @@ body{
    margin-left: 305px;
 }
 }
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 804px) {
    #logo img {
       width: 45px;
       height: 45px;
@@ -1037,7 +1037,7 @@ body{
 }
 }
 
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 788px) {
    #nav-bar {
       width: 320px;
       margin-left: 5px;
@@ -1216,7 +1216,7 @@ body{
    margin-left: 185px;
 }
 }
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 389px) {
    #logo img {
       margin-left: 43%;
   }
