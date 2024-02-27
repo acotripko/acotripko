@@ -1,0 +1,2 @@
+Allow: /sass/*.css
+Allow: /responsive/*.css

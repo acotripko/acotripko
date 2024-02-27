@@ -1,0 +1,25 @@
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>Portfolio</title>
+            <link></link>
+            <description>Uvod u porfolio</description>
+        </item>
+        <item>
+            <title>O meni</title>
+            <link></link>
+            <description>Nesto o meni</description>
+        </item>
+        <item>
+            <title>Projekti</title>
+            <link></link>
+            <description>Moji Projekti</description>
+        </item>
+         <item>
+            <title>Kontakt</title>
+            <link></link>
+            <description>Moj kontakt</description>
+        </item>
+        
+    </channel>
+</rss>

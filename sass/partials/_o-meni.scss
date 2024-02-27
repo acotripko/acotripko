@@ -1,0 +1,32 @@
+ #o-meni{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-image: url(img/slikica.jpg);
+    background-attachment: fixed;
+    img{
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+        border: 1px solid palevioletred;
+    }
+    p{
+        width: 550px;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 27px;
+        color: white;
+    }
+    #o-meni-box{
+        width: 1000px;
+        height: 550px;
+        margin-left: 430px;
+        display: flex;
+        align-content: space-between;
+        background-color: blueviolet;
+        border-radius: 30px;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: rgba(12, 12, 12, 0.9);
+    }
+ }

@@ -1,0 +1,1255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+a :hover{
+   color: palevioletred;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.98);
+    display: flex;
+   
+}
+
+#logo img{
+    width: 85px;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 70px;
+    border-radius: 40px;
+}
+#nav-bar{
+    width: 600px;
+    margin-left: 420px;
+}
+#nav-bar-linkovi{
+    width: 400px;
+    margin-left: 200px;
+}
+#nav-bar ul{
+    text-decoration: none;
+  display: inline-flex;
+  flex: 10px;
+  
+  margin-top: 10px;
+  list-style-type: none ;
+  margin-right:50px;
+}
+#nav-bar-linkovi ul{
+    text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+  margin-top: 10px;
+  list-style-type: none ;
+  margin-right:50px;
+  
+}
+#nav-bar li{
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-left: 15px;
+    font-size: 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+#nav-bar li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#nav-bar li a:hover{
+   color: palevioletred;
+   
+}
+#nav-bar-linkovi li{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-size: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+#nav-bar-linkovi li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#meni{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    display: flex;
+    background-image: url(img/34289-Artistic-Landscape-4k-Ultra-HD-Wallpaper.jpg);
+    background-attachment: fixed;
+
+}
+#meni-code{
+  float: right;
+  width: 50%;
+  height: 400px;
+  text-align: center;
+    
+}
+#meni-design{
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    color: white;
+
+      
+  }
+  #meni-design h1{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+      
+ }
+  #meni-code h1{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+      
+  }
+  #meni-design p{
+    
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    margin-left: 330px;
+  
+  }
+  #meni-code p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    margin-left: 330px;
+  }
+  
+ #znanje{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(182, 146, 216);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(img/slikica.jpg);
+    background-attachment: fixed;
+    
+    
+    
+ }
+ #znanje img{
+   width: 140px;
+   height: 150px;
+   margin-top: 20px;
+
+ }
+ #znanje p{
+    width: 400px;
+   margin-left: 30px;
+ 
+  }
+ #html{
+    width: 480px;
+    height: 570px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: rgba(12, 12, 12, 0.9);
+    color: white;
+    font-size: 25px;
+ }
+ #css{
+    width: 480px;
+    height: 570px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(12, 12, 12, 0.9);
+ }
+ #cplus{
+    width: 480px;
+    height: 570px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(12, 12, 12, 0.9);
+ }
+ #o-meni{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+    
+    background-image: url(img/slikica.jpg);
+    background-attachment: fixed;
+
+ }
+ #o-meni img{
+   margin-left: 30px;
+   margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid palevioletred;
+   
+
+ }
+ #o-meni p{
+   width: 550px;
+   margin-left: 30px;
+   margin-top: 30px;
+    font-size: 27px;
+    color: white;
+ 
+   
+
+ }
+ #o-meni-box{
+   width: 1000px;
+   height: 550px;
+   margin-left: 430px;
+   display: flex;
+   align-content: space-between;
+   background-color: blueviolet;
+   border-radius: 30px;
+   border: 1px solid rgb(255, 255, 255);
+   background-color: rgba(12, 12, 12, 0.9);
+ }
+ #projekti{
+  width: 100%;
+  height: 800px;
+  background-color: rgb(182, 146, 216);
+  
+  text-align: center;
+  background-image: url(img/slikica.jpg);
+  background-attachment: fixed;
+
+  
+  
+}
+#projekti-poz{
+   width: 100%;
+   height: 800px;
+   background-color: rgba(12, 12, 12, 0.7);
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   
+   background-attachment: fixed;
+}
+#projekti-poz-1{
+   width: 100%;
+   height: 100px;
+   background-color: rgba(12, 12, 12, 0.7);
+   
+   text-align: center;
+   
+   
+}
+#projekti-poz-1 h1{
+  color: white;
+  font-size: 50px;
+   
+   
+}
+#projekti img{
+ width: 140px;
+ height: 150px;
+
+
+}
+#projekti p{
+  width: 400px;
+ margin-left: 30px;
+
+}
+#projekat-1{
+  width: 520px;
+  height: 550px;
+ 
+  margin-top: 20px;
+  border-radius: 40px;
+ 
+  color: white;
+  font-size: 25px;
+
+
+}
+#projekat-1 h1{
+  font-size: 30px;
+ }
+#projekat-1 p{
+   width: 500px;
+  margin-left: 30px;
+ }
+ #projekat-1 a{
+   width: 100px;
+   font-size: 40px;
+   color: palevioletred;
+ }
+ #projekat-1 a:hover{
+ 
+   color: white;
+ }
+
+
+ #projekat-1 img{
+   width: 550px;
+   height: 300px;
+   border-radius: 20px;
+   border: 1px solid white;
+  }
+#projekat-2{
+   width: 620px;
+  height: 550px;
+ 
+  margin-top: 20px;
+  border-radius: 40px;
+ 
+  color: white;
+  font-size: 25px;
+
+}
+#projekat-2 h1{
+   font-size: 30px;
+  }
+ #projekat-2 p{
+    width: 550px;
+   margin-left: 30px;
+   margin-top: 10px;
+  }
+  #projekat-2 a{
+    width: 100px;
+    font-size: 40px;
+    color: palevioletred;
+  }
+ 
+ 
+ 
+   #logo-slike{
+      margin-top: 20px;
+      width: 100%;
+      height: 200px;
+      
+      display: flex;
+      align-content: space-between;
+   }
+   #logo-slike img{
+     width: 200px;
+     height: 190px;
+     margin-left: 10px;
+     border-radius: 100px;
+   }
+#projekat-3{
+   width: 420px;
+   height: 550px;
+  
+   margin-top: 20px;
+   border-radius: 40px;
+  
+   color: white;
+   font-size: 25px;
+ 
+}
+#projekat-3 h1{
+   font-size: 30px;
+  }
+ #projekat-3 p{
+    width: 350px;
+   margin-left: 30px;
+   margin-top: 10px;
+   
+  }
+  #projekat-3 a{
+    width: 100px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+  }
+  #projekat-3 a:hover{
+   color: palevioletred;
+   
+}
+  #projekat-3 h2{
+   text-align: center;
+   margin-top: 10px;
+  }
+   
+  span{
+   color: palevioletred;
+   font-size: 40px;
+  }
+ 
+ 
+
+#fotter-media {
+  text-align: center;
+}
+
+#fotter-media ul{
+  display: inline-flex;
+   text-decoration: none;
+   
+
+   margin-left: 10px;
+   margin-top: 10px;
+   list-style-type: none ;
+   margin-right:50px;
+}
+#fotter-media li{
+   margin-left: 10px;
+   
+   font-size: 30px;
+}
+
+#fotter{
+
+   color: white;
+   width: 100%;
+   margin: 20px auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom:10px ;
+   background-color: rgb(15, 15, 15);
+}
+#fotter  a{
+   color: white;
+   text-decoration: none;
+}
+#fotter  hr{
+   background-color: palevioletred white;
+   border: solid 1px palevioletred;
+   width: 16%;
+   margin-left: 785px;
+}
+#fotter-copy  {
+   text-align: center;
+}
+#fotter-copy  p{
+   font-size: 12px;
+    margin-right: 25px
+}
+@media screen and (max-width: 1752px) {
+   #fotter hr {
+     
+      margin-left: 650px;
+  }
+  #logo-slike img {
+   width: 120px;
+   height: 120px;
+   margin-left: 10px;
+   border-radius: 50%;
+}
+#projekat-1 img {
+   width: 450px;
+   height: 250px;
+   border-radius: 20px;
+   border: 1px solid white;
+}
+#o-meni-box {
+  
+   margin-left: 330px;
+   
+}
+
+}
+
+@media screen and (max-width: 1672px) {
+   #nav-bar {
+      
+      margin-left: 100px;
+  }
+  #fotter hr {
+   
+   margin-left: 635px;
+}
+#meni-design p {
+   
+   margin-left: 220px;
+}
+#meni-code p {
+   
+   margin-left: 220px;
+}
+#znanje p {
+   width: 350px;
+   margin-left: 30px;
+   font-size: 24px;
+}
+#html {
+   width: 420px;
+}
+#css {
+   width: 420px;
+}
+#cplus {
+   width: 420px;
+}
+#o-meni-box {
+   
+   margin-left: 210px;
+ 
+}
+#projekat-1 img {
+   width: 350px;
+   height: 201px;
+   
+}
+#projekat-1 p {
+   width: 400px;
+   
+   font-size: 24px;
+}
+#projekat-2 p {
+  
+   font-size: 24px;
+}
+#projekat-3 a {
+   font-size: 24px;
+}
+#fotter hr {
+     
+   margin-left: 545px;
+}
+}
+
+@media screen and (max-width: 1485px) {
+   #nav-bar-linkovi {
+      width: 200px;
+      margin-left: 0px;
+  }
+  
+  #meni-design p {
+   
+   margin-left: 170px;
+}
+#meni-code p {
+
+   margin-left: 170px;
+}
+#html {
+   width: 350px;
+   height: 540px;
+   
+}
+#css {
+   width: 350px;
+   height: 540px;
+   
+}
+#cplus {
+   width: 350px;
+   height: 540px;
+   
+}
+#znanje p {
+   width: 310px;
+  
+   font-size: 21px;
+}
+#o-meni-box {
+   width: 900px;
+   height: 450px;
+   margin-left: 140px;
+   
+}
+#o-meni img {
+   
+   width: 300px;
+}
+#o-meni p {
+   width: 520px;
+   
+   font-size: 24px;
+
+}
+#projekat-1{
+   width: 420px;
+}
+#projekat-1 h1 {
+   font-size: 23px;
+}
+#projekat-1 p {
+   width: 350px;
+   margin-left: 30px;
+   font-size: 21px;
+}
+#projekat-1 img {
+   width: 350px;
+   height: 200px;
+ 
+}
+
+#projekat-2 {
+   width: 420px;
+   
+}
+#projekat-2 h1 {
+   font-size: 23px;
+}
+#projekat-2 p {
+   width: 400px;
+   
+   font-size: 21px;
+}
+#logo-slike img {
+   width: 90px;
+   height: 90px;
+  
+   border-radius: 50%;
+}
+#logo-slike {
+   margin-left: 70px;
+ 
+}
+#projekat-3 h1 {
+   font-size: 23px;
+}
+#projekat-3 p {
+  
+   font-size: 21px;
+}
+#projekat-3 a {
+  
+   font-size: 21px;
+ 
+}
+#fotter hr {
+   
+   margin-left: 490px;
+}
+}
+@media screen and (max-width: 1146px) {
+   #nav-bar {
+      width: 500px;
+      margin-left: 50px;
+  }
+  #nav-bar li {
+ 
+   font-size: 25px;
+  
+  
+}
+#nav-bar-linkovi {
+   width: 300px;
+  
+}
+#meni-design p {
+  
+   margin-left: 120px;
+}
+#meni-code p {
+  
+   margin-left: 120px;
+}
+#html {
+   width: 300px;
+   height: 510px;
+  
+}
+#css {
+   width: 300px;
+   height: 510px;
+  
+}
+#cplus {
+   width: 300px;
+   height: 510px;
+  
+}
+#znanje p {
+   width: 250px;
+  
+   font-size: 18px;
+}
+#o-meni-box {
+   width: 650px;
+   height: 400px;
+   margin-left: 180px;
+   
+}
+#o-meni p {
+   width: 320px; 
+   font-size: 18px;
+}
+#o-meni img {
+  
+   width: 250px;
+}
+#projekat-2 {
+   width: 320px;
+  
+}
+#projekat-2 p {
+   width: 300px;
+   margin-left: 20px;
+   
+   font-size: 21px;
+}
+#logo-slike {
+   margin-left: 10px;
+ 
+}
+#projekat-1 {
+   width: 320px;
+  
+}
+#projekat-3 {
+   width: 320px;
+  
+}
+#projekat-1 p {
+   width: 300px;
+   
+}
+#projekat-1 img {
+   width: 250px;
+   height: 150px;
+   
+}
+#projekat-3 p { 
+   margin-left: 0px;
+}
+#fotter hr {
+   
+   margin-left: 395px;
+}
+}
+@media screen and (max-width: 1096px) {
+   #logo img {
+      width: 65px;
+      height: 65px;
+      
+      border-radius: 50%;
+  }
+  #nav-bar {
+   width: 450px;
+   margin-left: 20px;
+}
+#nav-bar li{
+   font-size: 24px;
+ }
+#nav-bar-linkovi {
+   width: 250px;
+   
+}
+#nav-bar-linkovi li {
+  
+   margin-left: 20px;
+   font-size: 30px;
+  
+}
+#meni-design h1 {
+  
+   font-size: 50px;
+}
+#meni-code h1 {
+  
+   font-size: 50px;
+}
+#meni-design p {
+  
+   margin-left: 100px;
+}
+#meni-code p {
+  
+   margin-left: 100px;
+}
+#znanje img {
+   width: 110px;
+   height: 120px;
+ 
+}
+#html {
+   width: 260px;
+   height: 540px;
+}
+#css {
+   width: 260px;
+   height: 540px;
+}
+#cplus {
+   width: 260px;
+   height: 540px;
+}
+#znanje p {
+   width: 220px;
+   
+   
+}
+#o-meni-box { 
+   margin-left: 90px;  
+}
+#projekti-poz-1 h1 {
+  
+   font-size: 35px;
+}
+#projekat-1 {
+   width: 250px;
+ 
+}
+#projekat-2 {
+   width: 250px;
+ 
+}
+#projekat-3 {
+   width: 250px;
+ 
+}
+#projekat-1 h1 {
+   font-size: 20px;
+}
+#projekat-2 h1 {
+   font-size: 20px;
+}
+#projekat-3 h1 {
+   font-size: 20px;
+}
+#projekat-1 p {
+   width: 200px;
+ 
+}
+#projekat-2 p {
+   width: 250px;
+   
+}
+#projekat-3 p {
+   width: 250px;
+  
+}
+#logo-slike img {
+   width: 70px;
+   height: 70px;
+   
+}
+#logo-slike {
+  
+   height: 100px;
+  
+}
+#projekat-3 a {
+
+   font-size: 18px;
+   
+}
+#fotter hr {
+
+   margin-left: 335px;
+}
+}
+@media screen and (max-width: 907px) {
+   #nav-bar-linkovi {
+      width: 200px;
+     
+  }
+  #nav-bar {
+   width: 420px;
+   margin-left: 20px;
+}
+#nav-bar-linkovi li {
+   font-size: 27px;
+}
+#meni-design h1 {  
+   font-size: 40px;
+}
+#meni-code h1 {  
+   font-size: 40px;
+}
+#meni-design p {
+   font-size: 22px;
+   width: 220px;
+}
+#meni-code p {
+   font-size: 22px;
+   width: 220px;
+}
+#html {
+   width: 230px;
+   height: 650px;
+}
+#css {
+   width: 230px;
+   height: 650px;
+}
+#cplus {
+   width: 230px;
+   height: 650px;
+}
+#znanje p {
+   width: 180px;
+   margin-left: 30px;
+   font-size: 18px;
+}
+#znanje img {
+   width: 90px;
+   height: 100px;
+   
+}
+#o-meni-box {
+   margin-left: 65px; 
+}
+#projekat-1 img {
+   width: 230px;
+   height: 130px;
+   
+}
+#fotter hr {
+   margin-left: 305px;
+}
+}
+@media screen and (max-width: 764px) {
+   #logo img {
+      width: 45px;
+      height: 45px;
+      margin-left: 30px;
+      border-radius: 50%;
+  }
+  #nav-bar {
+   width: 400px;
+   margin-left: 10px;
+}
+#nav-bar li {
+   font-size: 22px;
+}
+#header {
+   width: 100%;
+   height: 80px;
+ 
+}
+#meni {
+ 
+   height: 700px;
+  
+}
+#meni-design h1 {
+   font-size: 35px;
+}
+#meni-code h1 {
+   font-size: 35px;
+}
+#meni-design p {
+   font-size: 20px;
+   margin-left: 70px;
+}
+#meni-code p {
+   font-size: 20px;
+   margin-left: 70px;
+}
+#znanje {
+
+   display: inline-block;
+   height: 1200px;
+}
+#znanje p {
+   width: 300px;
+   margin-left: 30px;
+   font-size: 17px;
+}
+#html {
+   width: 350px;
+   height: 350px;
+   margin-left: 25%;
+
+}
+#css {
+   width: 350px;
+   height: 350px;
+   margin-left: 25%;
+
+}
+#cplus {
+   width: 350px;
+   height: 400px;
+   margin-left: 25%;
+
+}
+#o-meni {
+   height: 500px;
+}
+#o-meni-box {
+   width: 550px;
+   height: 430px;
+  
+}
+#o-meni p {
+   width: 220px;
+   font-size: 16px;
+}
+#projekti {
+   height: 1400px;
+}
+#projekti-poz {
+  
+   display: inline-block;
+   height: 1400px;
+}
+#projekat-1 {
+   height: 380px; 
+}
+#projekat-2 {
+   height: 470px;
+}
+#projekat-3 {
+   height: 350px; 
+}
+#projekti-poz-1 h1 {
+   font-size: 30px;
+}
+#projekti-poz-1 {
+   height: 60px;
+}
+#projekat-1 {
+   margin-left: 30%;
+}
+#projekat-2 {
+   margin-left: 30%;
+}
+#projekat-3 {
+   margin-left: 30%;
+}
+#fotter hr {
+   margin-left: 265px;
+}
+}
+
+@media screen and (max-width: 688px) {
+   #nav-bar {
+      width: 320px;
+      margin-left: 5px;
+  }
+  #logo img {
+   margin-left: 10px;
+
+}
+#nav-bar li {
+   margin-left: 5px;
+   font-size: 20px;
+}
+#nav-bar-linkovi {
+   width: 170px;
+   margin-left: 0px;
+}
+#nav-bar-linkovi li { 
+   margin-left: 15px;
+   font-size: 22px;
+}
+#meni-design h1 {
+   font-size: 30px;
+}
+#meni-code h1 {
+   font-size: 30px;
+}
+#meni-design p {
+   margin-left: 40px;
+}
+#meni-code p {
+   margin-left: 40px;
+}
+#html {
+   margin-left: 20%;
+}
+#css {
+   margin-left: 20%;
+}
+#cplus {
+   margin-left: 20%;
+   height: 400px;
+}
+#o-meni p {
+   margin-left: 10px;
+}
+#o-meni img {
+   margin-left: 20px;
+   margin-top: 20px;
+   width: 190px;
+}
+#o-meni-box {
+   width: 450px;
+   margin-left: 55px;
+}
+#projekat-1 {
+   margin-left: 27%;
+}
+#projekat-2 {
+   margin-left: 27%;
+}
+#projekat-3 {
+   margin-left: 27%;
+}
+}
+@media screen and (max-width: 558px) {
+   #header {
+      width: 100%;
+      height: 200px;
+      background-color: rgba(12, 12, 12, 0.98);
+      display: inline-block;
+  }
+  #logo img {
+   width: 65px;
+   height: 65px;
+   border-radius: 50%;
+   margin-left: 40%;
+}
+#nav-bar {
+   width: 100%;
+   margin-left: 5%;
+}
+#nav-bar ul {
+   margin-left: 12%;
+   
+}
+#nav-bar li {
+   font-size: 25px;
+   
+}
+#nav-bar-linkovi {
+   width: 300px;
+   margin-left: 22%;
+
+}
+#meni {
+  
+   display: inline-block;
+   
+}
+#meni-design {
+   height: 100px;
+   width: 50%;
+   margin-left: 25%;
+}
+#meni-design h1{
+    margin-top: 50px;
+    margin-right: 40px;
+ }
+#meni-design p {
+   width: 220px;
+   margin-left: 0px;
+}
+#meni-code {
+   height: 100px;
+   width: 50%;
+   margin-right: 130px;
+ 
+}
+#meni-code p {
+   width: 220px;
+   margin-left: 0px;
+}
+#meni-code h1 {
+   margin-right: 40px;
+ }
+#html {
+   margin-left: 15%;
+}
+#css {
+   margin-left: 15%;
+}
+#cplus {
+   margin-left: 15%;
+   height: 400px;
+}
+#o-meni-box {
+   display: inline-block;
+   width: 355px;
+   height: 530px;
+   margin-left: 15%;
+}
+#o-meni img {
+   width: 140px;
+   margin-left: 30%;
+}
+#o-meni p {
+   width: 320px;
+   margin-left: 15px;
+   margin-top: 10px;
+   font-size: 16px;
+   color: white;
+   text-align: justify;
+}
+#o-meni {
+   height: 580px;
+}
+#projekat-1 {
+   margin-left: 25%;
+}
+#projekat-2 {
+   margin-left: 25%;
+}
+#projekat-3 {
+   margin-left: 25%;
+}
+#projekat-2 p {
+   margin-left: 0px;
+}
+#fotter-media ul {
+   margin-left: 10%;
+}
+#fotter-copy p {
+   margin-right: 0px;
+}
+#fotter hr {
+   margin-left: 185px;
+}
+}
+@media screen and (max-width: 389px) {
+   #logo img {
+      margin-left: 43%;
+  }
+  #nav-bar ul {
+   margin-left: 7%;
+}
+#nav-bar-linkovi {
+   margin-left: 15%;
+}
+#html {
+   width: 330px;
+   margin-left: 6%
+}
+#znanje p {
+   margin-left: 20px;
+}
+#css {
+   width: 330px;
+   margin-left: 6%
+}
+#cplus {
+   width: 330px;
+   margin-left: 6%
+}
+#o-meni-box {
+   margin-left: 2%;
+}
+#projekat-1 {
+   margin-left: 15%;
+}
+#projekat-2 {
+   margin-left: 15%;
+}
+#projekat-3 {
+   margin-left: 15%;
+}
+#fotter hr {
+
+   margin-left: 155px;
+}
+}

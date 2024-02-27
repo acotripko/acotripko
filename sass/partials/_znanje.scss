@@ -1,0 +1,49 @@
+ #znanje{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(182, 146, 216);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(img/slikica.jpg);
+    background-attachment: fixed;
+        img{
+            width: 140px;
+            height: 150px;
+            margin-top: 20px;
+        }  
+        p{
+            width: 400px;
+            margin-left: 30px;
+        }
+        #html{
+            width: 480px;
+            height: 570px;
+            border: 1px solid rgb(255, 255, 255);
+            margin-top: 20px;
+            border-radius: 40px;
+            background-color: rgba(12, 12, 12, 0.9);
+            color: white;
+            font-size: 25px;
+        }
+         #css{
+            width: 480px;
+            height: 570px;
+            border: 1px solid rgb(255, 255, 255);
+            margin-top: 20px;
+            border-radius: 40px;
+            color: white;
+            font-size: 25px;
+            background-color: rgba(12, 12, 12, 0.9);
+        }
+        #cplus{
+            width: 480px;
+            height: 570px;
+            border: 1px solid rgb(255, 255, 255);
+            margin-top: 20px;
+            border-radius: 40px;
+            color: white;
+            font-size: 25px;
+            background-color: rgba(12, 12, 12, 0.9);
+        }
+ }
