@@ -922,7 +922,7 @@ body{
    margin-left: 305px;
 }
 }
-@media screen and (max-width: 904px) {
+@media screen and (max-width: 1004px) {
    #logo img {
       width: 45px;
       height: 45px;
