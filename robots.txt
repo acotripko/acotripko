@@ -1,2 +1,6 @@
-Allow: /sass/*.css
-Allow: /responsive/*.css
+User-agent: *
+Allow: /
+Sitemap: https://acotripko.github.io/acotripko//sitemap.xml
+rss: https://acotripko.github.io/acotripko//rss.xml
+responsive: https://acotripko.github.io/acotripko//responsive.css
+sass: https://acotripko.github.io/acotripko//style.scss
