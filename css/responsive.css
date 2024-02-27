@@ -1289,16 +1289,77 @@ body{
    margin-right: 170px;
 }
 }
-
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 425px) {
+   #logo img{
+      margin-left: 20%;
+   }
+   #nav-bar ul {
+      margin-left: 0%;
+   }
+   #nav-bar-linkovi {
+      margin-left: 8%;
+   }
+   #meni-design {
+      
+   
+     
+      margin-left: 90px;
+  }
+   #meni-design h1 {
+      width: 40%;
+            margin-right: 0px;
+            margin-left: 35px;
+   }
+   #meni-code {
+      height: 100px;
+      width: 50%;
+      margin-right: 290px;
+  }
+   #meni-code h1 {
+      margin-right: 160px;
+   }
+   #html{
+      margin-left: 12px;
+   }
+   #css{
+      margin-left: 12px;
+   }
+   #cplus{
+      margin-left: 12px;
+   }
+   #o-meni-box{
+      margin-left: 10px;
+   }
+   #projekat-1 {
+      margin-left: 8%;
+   }
+   #projekat-2 {
+      margin-left: 8%;
+   }
+   #projekat-3 {
+      margin-left: 8%;
+   }
+   #projekti-poz-1 h1{
+      margin-left: 5%;
+      width: 40%;
+      }
+      #fotter-media {
+         margin-left: 0px;
+         margin-right: 200px;
+      }
+      #fotter-copy {
+         margin-right: 390px;
+      }
+}
+@media screen and (max-width: 375px) {
    #logo img {
-      margin-left: 40%;
+      margin-left: 20%;
   }
   #nav-bar ul {
-   margin-left: 15%;
+   margin-left: 0%;
 }
 #nav-bar-linkovi {
-   margin-left: 24%;
+   margin-left: 7%;
 }
 #meni-code h1 {
    margin-right: 170px;
@@ -1306,40 +1367,40 @@ body{
 
 #html {
    width: 330px;
-   margin-left: 20%
+   margin-left: 3%
 }
 #znanje p {
    margin-left: 20px;
 }
 #css {
    width: 330px;
-   margin-left: 20%
+   margin-left: 3%
 }
 #cplus {
    width: 330px;
-   margin-left: 20%
+   margin-left: 3%
 }
 #o-meni-box {
-   margin-left: 18%
+   margin-left: 1%
 }
 #projekat-1 {
-   margin-left: 25%;
+   margin-left: 8%;
 }
 #projekat-2 {
-   margin-left: 25%;
+   margin-left: 8%;
 }
 #projekat-3 {
-   margin-left: 25%;
+   margin-left: 8%;
 }
 #fotter hr {
 
-   margin-left: 155px;
+   margin-left: 0px;
 }
 #fotter-media {
   
-   margin-right: 100px;
+   margin-right: 200px;
 }
 #fotter-copy {
-   margin-right: 90px;
+   margin-right: 370px;
 }
 }
