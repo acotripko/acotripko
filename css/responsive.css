@@ -1110,21 +1110,21 @@ body{
       display: inline-block;
   }
   body{
-   width: 760px;
+   width: 640px;
   }
 
   #logo img {
    width: 65px;
    height: 65px;
    border-radius: 50%;
-   margin-left: 39%;
+   margin-left: 37%;
 }
 #nav-bar {
    width: 100%;
    margin-left: 5%;
 }
 #nav-bar ul {
-   margin-left: 16%;
+   margin-left: 12%;
    
 }
 #nav-bar li {
@@ -1133,7 +1133,7 @@ body{
 }
 #nav-bar-linkovi {
    width: 300px;
-   margin-left: 25%;
+   margin-left: 20%;
 
 }
 #meni {
@@ -1144,11 +1144,11 @@ body{
 #meni-design {
    height: 100px;
    width: 50%;
-   margin-left: 25%;
+   margin-left: 20%;
 }
 #meni-design h1{
     margin-top: 50px;
-    margin-right: 80px;
+    margin-right: 40px;
  }
 #meni-design p {
    width: 220px;
@@ -1157,32 +1157,32 @@ body{
 #meni-code {
    height: 100px;
    width: 50%;
-   margin-right: 130px;
+   margin-right: 160px;
  
 }
 #meni-code p {
    width: 220px;
    margin-left: 0px;
-   margin-right: 70px;
+   margin-right: 90px;
 }
 #meni-code h1 {
-   margin-right: 160px;
+   margin-right: 100px;
  }
 #html {
-   margin-left: 18%;
+   margin-left: 14%;
 }
 #css {
-   margin-left: 18%;
+   margin-left: 14%;
 }
 #cplus {
-   margin-left: 18%;
+   margin-left: 14%;
    height: 400px;
 }
 #o-meni-box {
    display: inline-block;
    width: 355px;
    height: 530px;
-   margin-left: 18%;
+   margin-left: 14%;
 }
 #o-meni img {
    width: 140px;
@@ -1201,29 +1201,30 @@ body{
 }
 
 #projekat-1 {
-   margin-left: 25%;
+   margin-left: 23%;
 }
 #projekat-2 {
-   margin-left: 25%;
+   margin-left: 23%;
 }
 #projekat-3 {
-   margin-left: 25%;
+   margin-left: 23%;
 }
 #projekat-2 p {
    margin-left: 0px;
 }
-#fotter-media ul {
-   margin-left: 10%;
+#fotter-media  {
+   margin-left: 0%;
+   margin-right: 60px;
 }
-#fotter-copy p {
-   margin-right: 0px;
+#fotter-copy  {
+   margin-right: 60px;
 }
 #fotter hr {
    margin-left: 185px;
 }
 #projekti-poz-1 h1 {
    font-size: 30px;
-   margin-right: 90px;
+   margin-right: 100px;
 }
 }
 @media screen and (max-width: 590px) {
@@ -1239,57 +1240,123 @@ body{
 #nav-bar-linkovi {
    margin-left: 19%;
 }
+#meni-design  {
+  margin-left: 160px;
+
+
+}
 #meni-design h1 {
-   margin-right: 210px;
+   margin-right: 170px;
 }
 #meni-design p {
-   width: 220px;
-   margin-left: 0px;
+   margin-left: 0px; 
   
 }
+#meni-code{
+   margin-left: 0px;
+   width: 70%;
+}
 #meni-code h1 {
-   margin-right: 410px;
+   margin-right: 200px;
 }
 #meni-code p {
    width: 220px;
-   margin-left: 0px;
+   margin-left: 60px;
   
   
 }
 #html{
-   margin-left: 15% ;
+   margin-left: 12% ;
 }
 #css{
-   margin-left: 15% ;
+   margin-left: 12% ;
 }
 #cplus{
-   margin-left: 15% ;
+   margin-left: 12% ;
 }
 #o-meni-box {
-   margin-left: 15%;
+   margin-left: 12% ;
 }
 #projekti-poz-1 h1 {
 
-   margin-right: 180px;
+   margin-right: 230px;
 }
 #projekat-1{
-   margin-left: 22%;
+   margin-left: 18%;
 }
 #projekat-2{
-   margin-left: 22%;
+   margin-left: 18%;
 }
 #projekat-3{
-   margin-left: 22%;
+   margin-left: 18%;
 }
 #fotter-media ul {
    margin-left: 0%;
-   margin-right: 180px;
+   margin-right: 230px;
 }
 #fotter-copy {
+   margin-right: 240px;
+}
+}
+@media screen and (max-width: 525px) {
+   #logo img{
+      margin-left: 30%;
+   }
+   #nav-bar-linkovi {
+      margin-left: 18%;
+   }
+   #meni-design {
+      margin-left: 160px;
+  }
+  #meni-design h1{
+   margin-left: 35px;
+}
+#html{
+   margin-left: 12% ;
+}
+#css{
+   margin-left: 12% ;
+}
+#cplus{
+   margin-left: 12% ;
+}
+#meni-code {
+   height: 100px;
+   width: 50%;
+   margin-right: 220px;
+}
+#meni-code h1 {
+  
    margin-right: 170px;
+}
+#o-meni-box {
+   margin-left: 12%;
+}
+#projekti-poz-1 h1 {
+
+   margin-right: 220px;
+}
+#projekat-1{
+   margin-left: 18%;
+}
+#projekat-2{
+   margin-left: 18%;
+}
+#projekat-3{
+   margin-left: 18%;
+}
+#fotter-media ul {
+   margin-left: 0%;
+   margin-right: 240px;
+}
+#fotter-copy {
+   margin-right: 240px;
 }
 }
 @media screen and (max-width: 425px) {
+   #body{
+      width: 440px;
+   }
    #logo img{
       margin-left: 20%;
    }
