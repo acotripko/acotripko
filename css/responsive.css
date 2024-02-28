@@ -1227,3 +1227,51 @@ body{
    
 }
 }
+@media screen and (max-width: 368px) {
+   #nav-bar{
+      margin-left: 0px;
+   }
+   #nav-bar ul{
+      margin-right: 0px;
+   }
+   #nav-bar li {
+      font-size: 20px;
+   }
+   #nav-bar-linkovi ul {
+      margin-right: 0px;
+      
+   }
+      #nav-bar-linkovi li {
+      margin-left: 0px;
+
+   }
+   #znanje p{
+      margin-left: 5px;
+      width: 300px;
+
+   }
+   #html {
+      
+      width: 320px;
+       height: 400px;
+    }
+    #css {
+      
+      width: 320px;
+       height: 350px;
+    }
+    #cplus {
+      
+      width: 320px;
+       height: 400px;
+    }
+    #o-meni-box {
+      width: 320px;
+    }
+    #o-meni-box p{
+      width: 290px;
+      text-align: center;
+    }
+
+}
+
