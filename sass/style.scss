@@ -1,8 +1,23 @@
-@import "partials/variables.scss";
-@import "partials/header.scss"; 
-@import "partials/o-meni.scss";
-@import "partials/vestine.scss";
-@import "partials/projekti.scss"; 
-@import "partials/kontakt.scss"; 
-@import "partials/footer.scss";
-@import "partials/responsive.scss";
+@import "partials/variables";
+@import "partials/mixin";
+@import "partials/header"; 
+@import "partials/o-meni";
+@import "partials/meni";
+@import "partials/znanje";
+@import "partials/projekti"; 
+@import "partials/fotter";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+a:hover {
+    color: $roza;
+}
+  
+body {
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+}
