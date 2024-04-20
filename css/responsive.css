@@ -658,7 +658,7 @@ body{
 @media screen and (max-width: 1146px) {
    #nav-bar {
       width: 500px;
-      margin-left: 20px;
+      margin-left: 30px;
   }
   #nav-bar li {
  
@@ -1139,7 +1139,7 @@ body{
  
 }
 #nav-bar {
-   width: 100%;
+   width: 90%;
    align-items: center;
   
 }
@@ -1234,7 +1234,16 @@ body{
    
 }
 }
-
+@media screen and (max-width: 410px) {
+   #nav-bar li {
+      font-size: 23px;
+  }
+}
+@media screen and (max-width: 382px) {
+   #nav-bar li {
+      font-size: 21px;
+  }
+}
 @media screen and (max-width: 368px) {
    #nav-bar{
       margin-left: 0px;
